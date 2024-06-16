@@ -49,12 +49,6 @@ Follow the steps below to set up and run the application on your local machine.
     pip install -r requirements.txt
     ```
 
-4. Create a `.env` file in the root of your project and add your API key:
-
-    ```env
-    OPENAI_API_KEY=your_openai_api_key_here
-    ```
-
 ### Usage
 
 Run the following command to start the Streamlit application:
@@ -88,18 +82,3 @@ Replace `script_name.py` with the name of your script.
 2. **Ask a Question**: User inputs a question related to the PDF content.
 3. **Get Response**: The application processes the query using the LLM and returns the relevant answer.
 
-### Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Contact
-
-For questions or support, please open an issue or contact the repository owner.
-
----
-
-Feel free to customize this description to better fit your specific project details and preferences.
